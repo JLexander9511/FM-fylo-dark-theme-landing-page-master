@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+</head>
+<body> 
+    <header class="header --font2">
+      <h1 class="header__logo">
+        <a class="header__logo-anchor" href="#" title="Fylo Logo">
+          <img class="header__logo-anchor-image" src="images/logo.svg" alt="logo filo">
+        </a>
+      </h1>
+      <nav class="header__nav-menu">
+        <a class="header__nav-menu-link" href="">Features</a>
+        <a class="header__nav-menu-link" href="">Team</a>
+        <a class="header__nav-menu-link" href="">Sign In</a>
+      </nav>
+    </header>
+  <main>
+    <section class="presentation">
+        <figure class="presentation__img-container">
+          <img class="presentation__img" src="images/illustration-intro.png" alt="people taking documents and other stuff out of a folder">
+        </figure>
+       <h2 class="presentation__heading --font2">All your files in one secure location, accessible anywhere.</h2>
+       <p class="presentation__text --text-high">Fylo stores all your most important files in one secure location. Access them wherever 
+        you need, share and collaborate with friends family, and co-workers.</p>
+      <button class="presentation__button --font2" action="#">Get Started</button>
+    </section>
+    <section class="advantages">
+      <div class="advantages__item">
+        <figure class="advantages__icon-container">
+          <img class="advantages__icon" src="images/icon-access-anywhere.svg" alt="desktop computer and smartphone icon">
+        </figure>
+        <h3 class="advantages__attribute">Access your files, anywhere</h3>
+        <p class="advantages__text --text-high">The ability to use a smartphone, tablet, or computer to access your account means your 
+          files follow you everywhere.</p>
+      </div>
+      <div class="advantages__item">
+        <figure class="advantages__icon-container">
+          <img class="advantages__icon" src="images/icon-security.svg" alt="security shield">
+        </figure>
+        <h3 class="advantages__attribute">Security you can trust</h3>
+        <p class="advantages__text --text-high">2-factor authentication and user-controlled encryption are just a couple of the security 
+          features we allow to help secure your files.</p>
+      </div>
+      <div class="advantages__item">
+        <figure class="advantages__icon-container">
+          <img class="advantages__icon" src="images/icon-collaboration.svg" alt="clock and people icon">
+        </figure>
+        <h3 class="advantages__attribute">Real-time collaboration</h3>
+        <p class="advantages__text --text-high">Securely share files and folders with friends, family and colleagues for live collaboration. 
+          No email attachments required.</p>
+      </div>
+      <div class="advantages__item">
+        <figure class="advantages__icon-container">
+          <img class="advantages__icon" src="images/icon-any-file.svg" alt="folder icon">
+        </figure>
+        <h3 class="advantages__attribute">Store any type of file</h3>
+        <p class="advantages__text --text-high">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+          file types to be securely stored and shared.</p>
+      </div>
+    </section>
+    <section class="how-work">
+        <figure class="how-work__icon-container">
+          <img class="how-work__icon" src="images/illustration-stay-productive.png" alt="people working">
+        </figure>
+        <div class="how-work__text-container">
+        <h2 class="how-work__text-heading --font2">Stay productive, wherever you are</h2>
+        <p class="how-work__text --text-high">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+          storage needs.</p>
+        <p class="how-work__text --text-high">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+          attachments required.</p>
+        <a class="how-work__link --text-low" href="#">See how Fylo works   <img src="images/icon-arrow.svg" alt="icon"></a>
+        </div>
+    </section>
+    <section class="testimony">
+      <div class="testimony__card">
+        <img class="testimony__quote-icon" src="images/bg-quotes.png" alt="quote sign">
+        <p class="testimony__text --text-low">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <figure class="testimony__photo-container">
+         <img class="testimony__photo" src="images/profile-1.jpg" alt="board member portrait">
+        </figure>
+        <div class="testimony__person-container">
+          <span class="testimony__name --text-low">Satish Patel</span>
+          <span class="testimony__job">Founder & CEO, Huddle</span>
+        </div>
+      </div>
+      <div class="testimony__card">
+        <p class="testimony__text --text-low">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <figure class="testimony__photo-container">
+          <img class="testimony__photo" src="images/profile-2.jpg" alt="board member portrait">
+        </figure>
+        <div class="testimony__person-container">
+          <span class="testimony__name --text-low">Bruce McKenzie</span>
+          <span class="testimony__job">Founder & CEO, Huddle</span>
+        </div>
+      </div>
+      <div class="testimony__card">
+        <p class="testimony__text --text-low">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.</p>
+        <figure class="testimony__photo-container">
+          <img class="testimony__photo" src="images/profile-3.jpg" alt="board member portrait">
+        </figure>
+        <div class="testimony__person-container">
+          <span class="testimony__name --text-low">Iva Boyd</span>
+          <span class="testimony__job">Founder & CEO, Huddle</span>
+        </div>
+      </div>
+    </section>
+    <div class="get-access">
+      <h2 class="get-access__heading --font2">Get early access today</h2>
+      <p class="get-access__text --text-high">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+        questions, our support team would be happy to help you.</p>
+      <form class="get-access__form" action="#">
+        <input class="get-access__input-text" type="email" placeholder="email@example.com" required>
+        <input class="get-access__submit-btn --font2" type="submit">
+      </form>
+    </div>
+    <footer class="footer">
+      <figure class="footer__logo-container">
+        <img class="footer__logo" src="images/logo.svg" alt="fylo logo">
+      </figure>
+      <div class="desktop-inline-sup">
+      <div class="footer__data-container-a">
+        <figure class="footer__loc-icon-container">
+          <img class="footer__location-icon" src="images/icon-location.svg" alt="location icon">
+        </figure>
+        <span class="footer__text --text-higher">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua</span>
+      </div>
+
+      <div class="desktop-inline">
+        <div class="footer__data-container-b">
+          <figure class="footer__loc-icon-container">
+            <img class="footer__location-icon" src="images/icon-phone.svg" alt="location icon">
+          </figure>
+            <span class="footer__data-phone --text-higher">+1-543-123-4567</span>
+        </div>
+
+        <div class="footer__data-container-b --lastone">
+          <figure class="footer__loc-icon-container">
+            <img class="footer__location-icon" src="images/icon-email.svg" alt="location icon">
+          </figure>
+          <span class="footer__data-email --text-higher">example@fylo.com</span>
+          </div>
+      </div>
+      
+      <div class="footer__link-box-a">
+        <a class="footer__link" href="#">About Us</a>
+        <a class="footer__link" href="#">Jobs</a>
+        <a class="footer__link" href="#">Press</a>
+        <a class="footer__link" href="#">Blog</a>
+      </div>
+
+      <div class="footer__link-box-b">
+        <a class="footer__link" href="#">Contact Us</a>
+        <a class="footer__link" href="#">Terms</a>
+        <a class="footer__link" href="#">Privacy</a>
+      </div>
+      
+      <div class="footer__social-container">
+        <figure class="footer__social">
+          <!-- <img class="footer__img" src="images/facebook.svg" alt="facebook"> -->
+          <span class="icon-facebook"></span>
+        </figure>
+        <figure class="footer__social">
+          <!-- <img class="footer__img" src="images/twitter.svg" alt="facebook"> -->
+          <span class="icon-twitter"></span>
+        </figure>
+        <figure class="footer__social">
+          <!-- <img class="footer__img" src="images/instagram.svg" alt="facebook"> -->
+          <span class="icon-instagram"></span>
+        </figure>
+      </div>
+
+    </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Jesus Piñate</a>.
+      </p>
+
+    </footer>
+  </main>
+   
+</body>
+</html>
